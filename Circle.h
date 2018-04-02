@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-/* 
+/*
  * File:   Circle.h
  * Author: igor
  *
@@ -18,16 +18,16 @@
 #include "Figure.h"
 
 
-class Circle: 
+class Circle:
 public Figure
 {
     public:
-   // Circle(void);
-   
+    Circle(int);
+
     double r;
     virtual double area(void)const;
     virtual std::ostream& print(std::ostream&)const;
-  
+
 };
 
 #endif /* CIRCLE_H */

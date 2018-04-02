@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-/* 
+/*
  * File:   main.cpp
  * Author: igor
  *
@@ -19,9 +19,9 @@
 using namespace std;
 int main()
 {
-Figure** figures= new Figure[3];
-figures[0] = new Circle(1);
-figures[1] = new Triangle(1,1,1)
+Figure** figures= new Figure*[3];
+figures[0] = new Circle(5);
+figures[1] = new Triangle(3,3,5);
 figures[2] = new Rectangle(2,3);
 
 for(int i=0; i<3; i++)

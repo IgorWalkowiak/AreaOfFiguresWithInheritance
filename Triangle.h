@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-/* 
+/*
  * File:   Triangle.h
  * Author: igor
  *
@@ -16,15 +16,16 @@
 
 #include "Figure.h"
 
-class Triangle: 
+class Triangle:
 public Figure
 {
-    double a,h;
-    
+    double a,b,c;
+
 public:
+    Triangle(double,double,double);
     virtual double area(void)const;
     virtual std::ostream& print(std::ostream&)const;
-  
+
 };
 
 #endif /* TRIANGLE_H */
